@@ -54,7 +54,7 @@ cout<< *x;
 ```c++
 int x[3];
 for(int = 0; i<3; ++i){
-	cin >> x[i];
+cin >> x[i];
 }
 ```
 ######dynamically allocated array
@@ -91,7 +91,7 @@ for(int i = 0; i < size; i++){
 
 * memory is allocated when the stack frame is pushed on the stack
 * memory is deallocate d when it is no longer needed ( this must be done manually in c++, this is dangeourse as there can be memory leaks)
-..* it is you responsiblity to deallocate memory
+	* it is you responsiblity to deallocate memory
 #####examples
 ```c++
 //this does not change the data in memory but, just lets the heap reallocate the memory, STOP THE LEAKS
@@ -136,9 +136,9 @@ for(int i = 0; i <3; i++){
 
 ##functions with pointer parameters
 * we have seen pass-by-refrence
-.. * `void foo(int& passByVale){passByValue = 0;}// example of a pass by value function`
+	* `void foo(int& passByVale){passByValue = 0;}// example of a pass by value function`
 *we can also do this with pointers
-.. * `void foo(int* passByRefrence){*passByRefrence = 0;}//example of a pass by refrence function with pointers`
+	* `void foo(int* passByRefrence){*passByRefrence = 0;}//example of a pass by refrence function with pointers`
 * both of these function do essentialy the same thing
 
 * operator presedence '*'(derefrence)  is second to ' . '(go into)
