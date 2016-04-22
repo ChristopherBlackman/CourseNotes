@@ -134,11 +134,11 @@ for(int i = 0; i <3; i++){
 * Allocating memoty on the heap may be slower and we rarelt have guarantees
 * Deallocating memory on the head is fast
 
-##functions with poiter parameters
+##functions with pointer parameters
 * we have seen pass-by-refrence
-..* `void foo(int& passByVale){passByValue = 0;}// example of a pass by value function`
+.. * `void foo(int& passByVale){passByValue = 0;}// example of a pass by value function`
 *we can also do this with pointers
-..* `void foo(int* passByRefrence){*passByRefrence = 0;}//example of a pass by refrence function with pointers`
+.. * `void foo(int* passByRefrence){*passByRefrence = 0;}//example of a pass by refrence function with pointers`
 * both of these function do essentialy the same thing
 
 * operator presedence '*'(derefrence)  is second to ' . '(go into)
