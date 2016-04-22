@@ -23,37 +23,41 @@
 >work expectations 10 hours >
 
 
-
-
 |Terminology|
 |:---:|
 |Data|
 |Unknown|
 |Condition|
 
-Problem solving : usning the given data to find the unknwn such that the condition is satified
 
-usint the data to find the unkown such that the condition is statifed
-using the given data to achive a goal such that the con dition is statified
-using the data to create an algorithm/program that achieves a goal such the condition is statified 
+**Problem solving**: usning the given data to find the unknwn such that the condition is satified
 
-4 phases of problem solving
-/1 understand the problem
-/2 Devise a plan
-/3 Carry out the plan
-/4 look back
+######examples
+*using the data to find the unkown such that the condition is statifed
+*using the given data to achive a goal such that the con dition is statified
+*using the data to create an algorithm/program that achieves a goal such the condition is statified 
 
-#riddle about underlying meanings 
-/*
+######4 phases of problem solving
+1. understand the problem
+2. Devise a plan
+3. Carry out the plan
+4. look back
 
-pig, fox, and beets - 1 boat 2 passengers - fox eats pig, pig eats beets - make sure nothing happens
-anwser to problem
+#####riddle about underlying meanings 
 
-operations
-take --
--- to
--- back
 
+`pig, fox, and beets - 1 boat 2 passengers - fox eats pig, pig eats beets - make sure nothing happens`
+
+######anwser to problem
+
+
+|operations|
+|:---|
+|take --|
+|-- to|
+|-- back|
+
+`
 take pig to
 take noting back
 
@@ -64,6 +68,4 @@ take fox to
 take noting back
 
 pig to
-
-*/
-
+`
