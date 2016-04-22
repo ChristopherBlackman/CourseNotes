@@ -8,13 +8,13 @@
 |look back|
 
 ##Vampire number 
-> V = X*Y
-> V is 2n digits
-> both (X,Y) are n digits long
-> every digit in vampire number have to be th digits of both the fangs
-> **ex**
-> 1260 - smallest vampire number
-> 21 * 60 = 1260
+	V = X*Y
+	V is 2n digits
+	both (X,Y) are n digits long
+	every digit in vampire number have to be th digits of both the fangs
+	**ex**
+	1260 - smallest vampire number
+	21 * 60 = 1260
 
 ##Control Structures
 * branching control structure(if,if else, switch)
