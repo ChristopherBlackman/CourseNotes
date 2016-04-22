@@ -43,7 +43,7 @@
 3. Carry out the plan
 4. look back
 
-#####riddle about underlying meanings 
+#####Riddle about underlying meanings 
 
 
 `pig, fox, and beets - 1 boat 2 passengers - fox eats pig, pig eats beets - make sure nothing happens`
@@ -57,15 +57,13 @@
 |-- to|
 |-- back|
 
-`
-take pig to
-take noting back
-
-take beets to
-take pig back
-
-take fox to
-take noting back
-
-pig to
-`
+	take pig to
+	take noting back
+	
+	take beets to
+	take pig back
+	
+	take fox to
+	take noting back
+	
+	pig to
