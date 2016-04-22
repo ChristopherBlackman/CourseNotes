@@ -17,9 +17,9 @@
 >21 * 60 = 1260
 
 ##Control Structures
-branching control structure(if,if else, switch)
-repetition control structures
-nested control structures
+* branching control structure(if,if else, switch)
+* repetition control structures
+* nested control structures
 
 ##Error found in program
 approach
