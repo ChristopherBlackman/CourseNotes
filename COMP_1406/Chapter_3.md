@@ -81,8 +81,8 @@ a.address;
 	0xb2c
 	11 * 16 * 16 + 2 * 16 + 12 = 2860
 
-* type casting c++
-	(int)3.2
+####type casting c++
+`(int)3.2`
 
 ###Little Endian
 * stores the least significant byte frist
@@ -98,7 +98,7 @@ a.address;
 * by adding const, it maakes the refence Read Only
 ```c++
 //void print ( const int &y)...
-\\example that shows that a pass by refrence
+//example that shows that a pass by refrence
 void print ( int &y ){
 	cout << &y << endl;
 }
@@ -114,7 +114,7 @@ int main (){
 * you get a local copy in the stack of the item you passed
 
 ```c++
-\\example that shows that the program makes a copy when you call a local function
+//example that shows that the program makes a copy when you call a local function
 void print ( int y ){
 	cout << &y << endl;
 }
