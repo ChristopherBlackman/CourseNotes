@@ -23,14 +23,14 @@ nested control structures
 
 ##Error found in program
 approach
-*Tracing source code manualy
+* Tracing source code manualy
 
 ##lhun alogrithm
-*check sum
+* check sum
 
 ##devise a plan
-*validating # bool valid(#)
-*creating valid #
+* validating # bool valid(#)
+* creating valid #
 
 ###vampire Numbers code ???
 ```
@@ -54,6 +54,6 @@ for x from 0 to 9
 ```
 			
 ##Data validation
-*send data three times, but triple the data size
-*lhun alogrithm
+* send data three times, but triple the data size
+* lhun alogrithm
 
