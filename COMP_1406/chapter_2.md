@@ -33,7 +33,7 @@ approach
 * creating valid #
 
 ###vampire Numbers code ???
-```
+```c++
 for x from 0 to 9
 	if valid(n*10+x)then
 		output  n||x (cascade) 
