@@ -15,17 +15,17 @@
 * Where all dynamically allocated memory is stored
 
 ###Free memory
-*this is memory for the program to use, memory shrinks and grow as the program 
+* this is memory for the program to use, memory shrinks and grow as the program 
 executes demending on how much memory the heap and stack use
 
 ###Stack (function stack)
-*Data needed for handling function calls is also stored here (ex. return address)
+* Data needed for handling function calls is also stored here (ex. return address)
 
 ###Varible Decleration
-*creates an identifiers(or a lable) for a location in memory
+* creates an identifiers(or a lable) for a location in memory
 
 ###address-of operator(&)
-*will return the memory location of it's operand
+* will return the memory location of it's operand
 ```c++
 int x = 4; cout << &x;
 //this will print out memory location in hex
@@ -139,9 +139,9 @@ for(int i = 0; i <3; i++){
 ..* `void foo(int& passByVale){passByValue = 0;}// example of a pass by value function`
 *we can also do this with pointers
 ..* `void foo(int* passByRefrence){*passByRefrence = 0;}//example of a pass by refrence function with pointers`
-*both of these function do essentialy the same thing
+* both of these function do essentialy the same thing
 
-*operator presedence '*'(derefrence)  is second to ' . '(go into)
+* operator presedence '*'(derefrence)  is second to ' . '(go into)
 ```c++
 	(*p).h == p->h
 ```
@@ -155,4 +155,3 @@ void append(char* &word, char c)
 
 char* concatenate(char* s1, char* s2)
 ```
-
