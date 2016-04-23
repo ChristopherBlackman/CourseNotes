@@ -1,3 +1,5 @@
+#Comp1406 Index Page
+
 [Chapter 1][1]
 <br/>
 [Chapter 2][2]
@@ -11,6 +13,10 @@
 [Java Basics][6]
 <br/>
 [C++ varible sizes][7]
+
+<!--
+	Refrences
+-->
 
 [1]:https://github.com/ChristopherBlackman/CourseNotes/blob/master/COMP_1406/Chapter_1.md
 [2]:https://github.com/ChristopherBlackman/CourseNotes/blob/master/COMP_1406/Chapter_2.md
