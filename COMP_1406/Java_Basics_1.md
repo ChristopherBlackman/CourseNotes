@@ -30,7 +30,7 @@ float  	//32 byte
 double 	//64 byte
 
 boolean	//1 byte
-``
+```
 <br>
 primitive data types are stored in memory where they are declared
 <br>
