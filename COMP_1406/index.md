@@ -1,9 +1,15 @@
 [Chapter 1][1]
+<br/>
 [Chapter 2][2]
+<br/>
 [Chapter 3][3]
+<br/>
 [Chapter 4][4]
+<br/>
 [Chapter 5][5]
+<br/>
 [Java Basics][6]
+<br/>
 [C++ varible sizes][7]
 
 [1]:https://github.com/ChristopherBlackman/CourseNotes/blob/master/COMP_1406/Chapter_1.md
