@@ -130,7 +130,6 @@ Limit of Array Size in java is  2^32
 * extreme cases
 
 #Linked list
-============
 * is a data structure for a sequential collection of data 
 * to know when a linked list stops we use a "null" refrence pointer
 * head is the frist node in the linked list
@@ -230,7 +229,7 @@ ex
 
 * in java extends inherits from other classes (all the way to object)
 
-*java automatically extends Object for you classes, this is why we see the toString Methods, .Equals methods ...
+* java automatically extends Object for you classes, this is why we see the toString Methods, .Equals methods ...
 
 ```java
 Public class CSSstudent{} === Public class CSSstudent extends Object {}
@@ -269,60 +268,71 @@ abstract methods
 * multiple interfaces just use a comma
 * how to add an interface, use key word "implements"
 
-*useful interface is comparable with generics <T>
+* useful interface is comparable with generics <T>
 
 #Ploymorphism
 
 ##ADT - Abstract Data Types
+
 ####mathematical model 
-	* has data
-	* opera	-remove/pop() //remove from the top
-	* peek()/top() //next value
+* has data
+* opera	-remove/pop() //remove from the top
+* peek()/top() //next value
+
 ####double endded Queue
-	* addfrist(x),removeFrist() // add or remove from the enque
-	* addLast(x),removeLast()   // add or remove from the dequeue
+* addfrist(x),removeFrist() // add or remove from the enque
+* addLast(x),removeLast()   // add or remove from the dequeue
+
 ####List interface
-	* represents a sequence indexed by 0,1,2... n-1
-	* size
-	* get(i)
-	* set(i)
-	* set(i,a)
-	* add(i,a)/insert(1,a)
-	* remove(i)
+* represents a sequence indexed by 0,1,2... n-1	
+* size
+* get(i)
+* set(i)
+* set(i,a)
+* add(i,a)/insert(1,a)	
+* remove(i)
+
 ####Unordered Set Interface
-	* represetns an unordered collection of distict values
-	* size()
-	* add(x)
-	* remove(x)
-	* find(x)
+* represetns an unordered collection of distict values
+* size()
+* add(x)
+* remove(x)
+* find(x)
+
 ####Map/Dictionary Interface
-	* in a map or dictionary data structure the data is a key/value pair ex (k,v)	
-	* keys are distinct in the dictionary
-	* there are no restrictions on the values
+* in a map or dictionary data structure the data is a key/value pair ex (k,v)	
+* keys are distinct in the dictionary
+* there are no restrictions on the values
+
 ####Sorted set Interface
-	* represents a sorted colletion of distict elements
-	* the data has some total order
+* represents a sorted colletion of distict elements
+* the data has some total order
+
 ```
-			|< 0 if x < y
-	compare(x,y)----|> 0 if x > y
-			|= 0 if x = y
+		|< 0 if x < y
+compare(x,y)----|> 0 if x > y
+		|= 0 if x = y
 ```
-	* size()
-	* add(x)
-	* remove(x)
-	* find(x) does a successor search or a predeccesor search
+* size()
+* add(x)
+* remove(x)
+* find(x) does a successor search or a predeccesor search
 	
 ###data structure
-	* is a systematic approach to storing and accessing sata so that it can be used efficintly for a  specific purpose
-	* is the implemetation of an ADT
+* is a systematic approach to storing and accessing sata so that it can be used efficintly for a  specific purpose
+* is the implemetation of an ADT
+
 ###ADT 
-	* is data and operatioons on that sata  that are presisly indemended of any implementaion
-	* adt is a mathematical construct. we simulate them as APIs or interfaces
+* is data and operatioons on that sata  that are presisly indemended of any implementaion
+* adt is a mathematical construct. we simulate them as APIs or interface
+
 ###Generics
-	* allow types and parameyers in the definitions classes, interfacesm or methods
-	* advatages (eleiminates the need for excessive type casting, allows comiler to do stronger checking, dont have to rewrite the code)
-	* can be used to paramatize types
+* allow types and parameyers in the definitions classes, interfacesm or methods
+* advatages (eleiminates the need for excessive type casting, allows comiler to do stronger checking, dont have to rewrite the code)
+* can be used to paramatize types
+
 Ex
+
 ```java
 	public class Box <T>{
 		T thing;
