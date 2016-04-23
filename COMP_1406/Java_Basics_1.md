@@ -258,6 +258,7 @@ abstract methods
 #####note
 * abstract class need not abstract methods, an abstract method need to have an abstract class, define what something is
 <br>
+
 ######class name tyically nouns
 * concrete class must have everthing defined
 
@@ -309,9 +310,9 @@ abstract methods
 * the data has some total order
 
 ```
-		|< 0 if x < y
+                |< 0 if x < y
 compare(x,y)----|> 0 if x > y
-		|= 0 if x = y
+                |= 0 if x = y
 ```
 * size()
 * add(x)
