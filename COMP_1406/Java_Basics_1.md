@@ -192,23 +192,23 @@ Instace attributes and instace methods are non-static
 
 #Three Pinciples of OOP
 
-Encapsulation
+##Encapsulation
 * Objects combine both data and operations on the data(they have both state and behaviour)
 * allows uss to modul very real-world problems nicely
 * helped us modulize our code
 <br>
-Inheritance
+##Inheritance
 * classes can inherit attributes and operations from other classes
 * promotes code sharing and re-usability
 * yeilds heirarchal code organization
 <br>
-Polymorphisim
+##Polymorphisim
 * objects act like other objects
 * dynamic bininding allows objects to determin which methods to use at runtime
 * simplifies code understanding
 * standerdizes method naming
 <br>
-Unified Modeling Language(UML)
+##Unified Modeling Language(UML)
 * way to make code better displayed and layed out
 
 #Inheritance
@@ -259,7 +259,7 @@ abstract methods
 #####note
 * abstract class need not abstract methods, an abstract method need to have an abstract class, define what something is
 <br>
-class name tyically nouns
+######class name tyically nouns
 * concrete class must have everthing defined
 
 * interface: defines what an object can do. typically adjectives
@@ -271,86 +271,85 @@ class name tyically nouns
 
 *useful interface is comparable with generics <T>
 
-===================
-===Ploymorphism==================================================
-===================
+#Ploymorphism
 
-==========================
-ADT - Abstract Data Types==
-==========================
--mathematical model 
-	-has data
-	-opera	-remove/pop() //remove from the top
-	peek()/top() //next value
-double endded Queue
-	-addfrist(x),removeFrist() // add or remove from the enque
-	-addLast(x),removeLast()   // add or remove from the dequeue
-List interface
-	-represents a sequence indexed by 0,1,2... n-1
-	-size
-	-get(i)
-	-set(i)
-	-set(i,a)
-	-add(i,a)/insert(1,a)
-	-remove(i)
-Unordered Set Interface
-	-represetns an unordered collection of distict values
-	-size()
-	-add(x)
-	-remove(x)
-	-find(x)
-Map/Dictionary Interface
-	-in a map or dictionary data structure the data is a key/value pair ex (k,v)	
-	-keys are distinct in the dictionary
-	-there are no restrictions on the values
-Sorted set Interface
-	-represents a sorted colletion of distict elements
-	-the data has some total order
+##ADT - Abstract Data Types
+####mathematical model 
+	* has data
+	* opera	-remove/pop() //remove from the top
+	* peek()/top() //next value
+####double endded Queue
+	* addfrist(x),removeFrist() // add or remove from the enque
+	* addLast(x),removeLast()   // add or remove from the dequeue
+####List interface
+	* represents a sequence indexed by 0,1,2... n-1
+	* size
+	* get(i)
+	* set(i)
+	* set(i,a)
+	* add(i,a)/insert(1,a)
+	* remove(i)
+####Unordered Set Interface
+	* represetns an unordered collection of distict values
+	* size()
+	* add(x)
+	* remove(x)
+	* find(x)
+####Map/Dictionary Interface
+	* in a map or dictionary data structure the data is a key/value pair ex (k,v)	
+	* keys are distinct in the dictionary
+	* there are no restrictions on the values
+####Sorted set Interface
+	* represents a sorted colletion of distict elements
+	* the data has some total order
+```
 			|< 0 if x < y
 	compare(x,y)----|> 0 if x > y
 			|= 0 if x = y
-	-size()
-	-add(x)
-	-remove(x)
-	-find(x) does a successor search or a predeccesor search
+```
+	* size()
+	* add(x)
+	* remove(x)
+	* find(x) does a successor search or a predeccesor search
 	
-data structure : 
-	-is a systematic approach to storing and accessing sata so that it can be used efficintly for a  specific purpose
-	-is the implemetation of an ADT
-ADT : 
-	-is data and operatioons on that sata  that are presisly indemended of any implementaion
-	-adt is a mathematical construct. we simulate them as APIs or interfaces
-Generics:
-	- allow types and parameyers in the definitions classes, interfacesm or methods
-	-advatages (eleiminates the need for excessive type casting, allows comiler to do stronger checking, dont have to rewrite the code)
-	-can be used to paramatize types
-	Ex
-	public class Box <T>
-	{
+###data structure
+	* is a systematic approach to storing and accessing sata so that it can be used efficintly for a  specific purpose
+	* is the implemetation of an ADT
+###ADT 
+	* is data and operatioons on that sata  that are presisly indemended of any implementaion
+	* adt is a mathematical construct. we simulate them as APIs or interfaces
+###Generics
+	* allow types and parameyers in the definitions classes, interfacesm or methods
+	* advatages (eleiminates the need for excessive type casting, allows comiler to do stronger checking, dont have to rewrite the code)
+	* can be used to paramatize types
+Ex
+```java
+	public class Box <T>{
 		T thing;
 	}
 	
-	main 
-	{
+	main {
 		Box<String> stringBox = new Box<String>();
 		stringBox.thing.toUppercase();
 		Box<Integer> ....;
 	}
-	-generic array creation is not permmited in java
+	//generic array creation is not permmited in java
+```
 
+#Comparisions in data structures
 
-==== Comparisions in data structures ====
+######array
+* stack -> add/remove from the end of the array
+* we'll leave some room in the array
+* resizing is only negative
 
-array
--stack -> add/remove from the end of the array
--we'll leave some room in the array
--resizing is only negative
+#####Linked-list
+* stack -> add/remove front
+* node
 
-Linked-list
-stack -> add/remove front
-node
+###fifo queue for an array (circular array)
 
-==fifo queue for an array (circular array)==
+```
 
 ========================
 |0|1|2|3|4|5|6|7|8|9|10|
@@ -364,21 +363,23 @@ node
 F = front 
 B = back 
 L = length
+```
+>to find the back position you can do B%L	<br>
+>so that we can find the back if it 		<br>
+>happens to go past the end of the array	<Br>
 
-to find the back position you can do B%L
-so that we can find the back if it
-happens to go past the end of the array
+###fifo queue fora linked list
+* easy to add()/remove() from the front 
+* easy to remove() from the back
 
-==fifo queue fora linked list==
--easy to add()/remove() from the front 
--easy to remove() from the back
+>for fifo just add to the back and remove from the front
 
-for fifo just add to the back and remove from the front
+###Deque for a linked list (a double linked list)
+* easy to remove from the front and the back of the list
 
-==Deque for a linked list (a double linked list)==
-easy to remove from the front and the back of the list
+###Deque for an array
 
-==Deque for an array ==
+```
 =======================
 |1|2|3|0|0|0|0|0|0|0|0|
 =======================
@@ -396,39 +397,47 @@ array[(f-1)% length] will not work for computers
 
 array[(f-1+length)%length] will work work for computers
 
-==unordered collection / set array ==
-use a an array to store elements
--find   O(n)
--add    O(n) //find element
--remove O(n) //find element
+```
 
-==unordered collection / set hash table==
+###unordered collection / set array
+use a an array to store elements
+* find   O(n)
+* add    O(n) //find element
+* remove O(n) //find element
+
+###unordered collection / set hash table
 hash table  (hashing with chaining)
+```
 ===============
 |0|1|2|3|4|5|6|
 ===============
-this hash table is made up of linked list inside this table
+```
+######this hash table is made up of linked list inside this table
 
-hash function
-h(x) = x mod 7
+>hash function
+>h(x) = x mod 7
 
 worst  case expected case
-find   O(n)	     O(1)
-add    O(n)	     O(1)
-remove O(n)	     O(1)
+* find   O(n)	     O(1)
+* add    O(n)	     O(1)
+* remove O(n)	     O(1)
 
+```
 n = # of elements
 d = capacity of the array
 
 n/d <= 1   -> average size of each list
-
-==Bad Operations==
-Array		closing gaps / creating gaps is O(n)
-Linked List	seaching is O(n)
+```
+###Bad Operations
+Array		
+* closing gaps / creating gaps is O(n)
+Linked List
+* seaching is O(n)
 
 game with lists of componets
+```
 players	List<players>	|
 bullets	List<Bullets>	|--- List<things>
 lasers	List<lazers>	|
-
+```
 
