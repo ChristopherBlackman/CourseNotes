@@ -1,5 +1,17 @@
 #usefull commands
 
+###history
+*list the history of commands
+
+###kill
+* kills a process
+
+### ps
+* list the current process
+
+### dh
+*list the currently connected media
+
 ### fdisk
 * formatting a partition table
 
@@ -52,6 +64,9 @@
 ### cat
 * concatinate text files
 
+### dmseg
+* 
+
 ## ` >> `
 * append but not replace
 
@@ -60,3 +75,4 @@
 
 ## ` * `
 * wild card
+
