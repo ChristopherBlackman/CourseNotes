@@ -9,7 +9,7 @@
 ### ps
 * list the current process
 
-### dh
+### df
 *list the currently connected media
 
 ### fdisk
