@@ -10,7 +10,7 @@
 * list the current process
 
 ### df
-*list the currently connected media
+* list the currently connected media
 
 ### fdisk
 * formatting a partition table
