@@ -1,7 +1,7 @@
 #usefull commands
 
 ###history
-*list the history of commands
+* list the history of commands
 
 ###kill
 * kills a process
