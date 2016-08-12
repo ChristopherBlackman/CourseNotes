@@ -1,5 +1,18 @@
 #usefull commands
 
+
+###find
+* tree search
+
+###egrep
+* extended get regular expressions
+
+###update-alternatives
+* update path varibles via terminal
+'''bash
+update-alternatives --install
+update-alternatives --config
+'''
 ###history
 * list the history of commands
 
