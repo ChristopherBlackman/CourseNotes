@@ -1,5 +1,7 @@
 #usefull commands
 
+###partprobe
+* attemtps to reset the kernals partition table
 
 ###find
 * tree search
