@@ -1,0 +1,77 @@
+# comp 3005a
+
+# histoy of dayabse systems 
+
+## alan turing
+ - a pritish pioneeriong computer scientist mathimaticioan ...
+- proposed athe turing machine which provides formalization ofth convepts of algorithm and computation a model of a computer
+- condidererd the fater of theroretical computer science
+- prosecuted for homosexual acts ACM
+
+## turing arward
+- c bachman
+- e.f. codd
+- jim gray
+- m.stonebreaker
+
+# data models
+1. hierachical
+2. netwrok
+3. relational
+4. nested relational 
+5. object models
+6. object relational 
+7. xml 
+8. noSQL
+
+# network model
+- introduced by charles bachman
+- implemented by honeywell
+- later implemented in a large variet of systems	
+- the data is organized into a graph lattice structure
+	- each parent can have many children
+	- each child can have many parents 
+	- N:M relationships
+- a flexible way of representing entities and their relationshiops
+- allows each record to have multiple parednt and chiled recoreds forminga  generalized graph structure
+- advantages
+	- model complex relationshipos and represts semantics of adddelete on the relationshiops
+	- can handle most sisuations for modeling using record types and realationship types
+	- langausge is navihational; uses constructs like FIND m FIND memberm FIND, owner. FIND NEXT within set, GET
+- disadvantages
+	- navaigational and procedural nature of processing
+	- data base contrains a comlex arraly of pointers that thread though a set of records 
+- failed to become dominiat due to
+	- IBM chose to stich to hieracical model with semi-network extenion
+	- relational model
+
+# hierarchical model
+- join errort by IMB and North Americal Rockwell
+- resuted in IMS
+- the data is organized into a tree like structure using records and links on disk reather than in memory
+	- data is stored as recoreds which are collection of field with each field containing only one value, 
+	- records are connected to another though links
+	- each record having one paredt an many children so that recordds relationshiops form a tree0like modle
+	- all attribues of a specific refort ar listed under an enitiy tyoe
+- one to many relation
+- advatages
+	- simple to construct and iperate
+	- corresponst to a number of natural hierachically organized domains
+	- language is simple
+		- "GET , GET UNIQUE, GET NEXT, GET NEXT WITHIN PARENT"
+- disadvantafes
+	-
+	-
+	-	
+	-
+
+# relational model
+- all data is represented in terms of tuples, grouped into relations
+
+
+# relactional vs network
+- relational is an ideal model but not preformace  won;t be acceptable
+- it thretents the network stanardization
+- 
+- 
+
