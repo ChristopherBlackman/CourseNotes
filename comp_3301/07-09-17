@@ -1,0 +1,112 @@
+# technical writing - david mould
+
+- writing proceess : suggestion for how to appreach the task of writing
+- organization : statigies ofr arranging and presenting your content
+- mechanics : low level-machinery of a writen document
+- clarity: advice efor making your writting more comprehensible
+
+
+# technical communication
+- intedned to communicate information to the target audience
+	- commnets in code
+	- co-op work term report
+	- scientific paper
+- relies on direct, unambigous languae; clear progression of ideas; transparent style 
+
+# the challend of writing
+- you know what you mean but the reader does not
+	- " empty mind " the disiple of reading only what is on the page and ignoring your prior knowlege 
+- be direct
+- avoid ambiguity
+	- avoid opportnitites for alternative parsings
+- seek simplicity
+
+# common mistakes
+
+```
+The compiler did not accept the program because it contained errors.
+```
+- ambiguity
+- put the important information a the begining of the sentence
+
+```
+Participants read assertions whose veracirt was either affiremd or denid by the subsequent presentation of an assessment word 
+```
+- to much butter for a smiple true or false with a supportive fact
+
+# In Class Writing text
+
+```
+The Umbrella: it is a mobile water resistance device used to protect one self from water. 
+In many cases it is used to take shelter from the rain. It has a long steel pole as the shaft.
+This shaft is used as the handle for the device; tipically on the bottom. 
+Connected to the uppermost part of the shaft is a water resistant membrain used to reple water.
+This shaft is supported by structs, that are foldable thus allowing the entire device to fold up neatly.
+```
+# structure  of the class
+
+- writing exercise
+	- in-class : write a summary or respond to a prompt
+	- out of class : same but explect more polish
+	- editing : find and fix errors in others writing
+	- revising : react to comments on your exersises
+- repnsese to writing
+	- comments on written submissions
+	- discussions on common issues
+
+# schema ( NO MIDTERM ) 
+- in class : 20%
+- small writing assignments : 40%
+	- weekly
+- large writing assignments : 25%
+	- three ish
+- final exam : 15%
+	- take home exam
+
+
+# paper / artical summaries
+- a default wrting assignment : summarize a selected articl
+	- in your own words  - avoid quoting , close paraphrasing
+- capture the essential ideas of the article in a much smaller space 
+
+# summary pitfalls
+- quoting and paraphrasing
+- avoid - use your own words
+- close parapahre ( subsituting words here and there) counts as copying and is unhelpful with the summary anywaly rewrite entirely in a condesed format
+- missing main points
+- elements crusial to the dvelpopment of the argument must be retained
+- sumary need not shadow the original - emphasis can differ
+- including unnecessar material
+	- fluff
+	- bread expolanatory matter
+- lose writing within the summary
+- can arise from a mechanical process of condensing material without regard for importance
+- oversummarising - what you write does not stand on its own
+- use technical terms without explanation
+- omitting connections amoung different parts ofth discussion; do make sure that the summary flows nicely and the reasonining is reserved 
+- metadiscourse ( not about the content but the writing it self) 
+- writing about writing
+	- as opposed to the content of the writing
+
+# on quoting
+- there are only a few reason to quote
+	- the original is striking
+	- you want to analyze  the specific wording used
+	- you want to cleary attribute the ideas to the author and distance yourself
+- these dont apple to your summaries - use your own words 
+
+
+# example 
+
+```
+The user's selected tet is highlighted in green
+```
+
+- not an important detail
+
+
+# assignment
+- summarise  " The Moral Challenges of Driverless Cars", CACM Aug 2015 - link on culearn
+- 300-500 words
+- due at the start of next class (tuesday)
+- submit on paper 
