@@ -1,0 +1,129 @@
+# chapter 1 - introduction : databases and databases users
+
+- traditional applications
+	- business data processing ( numeric and textual data bases) 
+- more recent applications 
+	- multimedia databases
+	- GIS
+	- bio and Genome databases
+	- data warehouses
+	- mobile databases
+	- real-time active databases
+- this course focuses on traditional applications 
+
+```
+application programs/queries
+       	|
+software to process queries/programs
+	|
+software to access stored data
+	|
+stored database definition + stored database
+```
+
+# basic definitions
+
+Database : a collection of related data stored on a computer
+Data : a value that represents know facts with an implicit meaning
+mini world : some part of the real world for which the database is developed with its data stored in the data base
+database management system:
+....
+
+
+# DBMS 
+- load the initial database contents on a secondary storage medium " creates system tables " 
+- define a particular database in terms of its data types, structures, and constraints 
+- manipulating the database:
+	- retrieval : querying, generating reports
+	- modification: inter, deletions and updates to its content
+	- accessing the database through web applications
+- precessing and sharing by a set of concurrent users and application programs - yet , keeping all data valid and consistent
+
+# application interact with a database by generation
+- queries: that access different parts of data and formulate the result of a request
+- transactions: that may read some data and "update" certain values or generate new data and store that in the database
+- application must not allow unauthorized users to access data
+- applications must keep up with changing users 
+-  protection or security measures to prevent unauthorized access
+- presentation and visualization of data
+- maintenance of the database and associated application programs over the lifetime of the database application
+
+# examples of a database
+
+- mini-world example
+	- part of a university environment
+- some mini-world entities :
+
+# characteristics of a database
+- self describing nature of a database system
+	- a dbnms catalog stores the description of a particular database
+	- the description is called meta data
+	- this allowed the dbms software to work with different database applications
+- insulation between programs and data
+	- called program data independence
+- data abstraction
+	- a data model is used to hide storage details and present the users with a conceptual view of the database
+	- programs refer to the data model constructs rather than data storage details 
+- support of multiple views of the data :
+	- each user may see a different view of the data base
+- sharing of data and multi-user transaction processing
+	- allowing a set of concurrent users to retrieve from and to update the database
+	- concurrent control withing the dmbs grantees that each transaction is correctly executed or aborted
+	- recovery subsystem ensures each completed transaction has is it effect permanently recorded in the database
+	- Online Transaction Processing 
+
+# database users 
+- actors behind the scene
+	- those who design and develop the dbms and related tools and the computer system operators
+- actors on the scene
+	- those who use the system
+	
+# actors behind the scene
+- system designers and implementers
+- tool developers
+- operators and maintenance personnel
+
+# actors on the scene
+- database administrators
+	- acquiring software and hardware resources
+- database designers
+	- defining content
+	- communicate with end users and understand their needs 
+- system analysts and application developers
+	- accounts for a very large portion of the IT work force 
+	- system analyst
+		- understand the user requirement of end users
+	- application programmers
+		- implement the specifications 
+- end users
+	- use that database in day to day basis 
+	- don't know how data base is structured 
+	
+# advantages of using the db approach
+- controlling redundancy in data storage and in development and maintenance efforts 
+	- sharing of data among multiple users 
+- restriction unauthorized access to data. Only the dba staff uses privileged commands and facilities
+- providing persistent storage for program object
+	- object relational dbms make program objects persistent
+- providing storage structures for efficient query processing 
+- providing optimization of queries for efficient processing 
+- providing backup and recovery services 
+- providing multiple interfaces to different classes of users 
+- representing complex relationships among data
+- enforcing integrity constraints on the database
+- drawing inferences and action from the stored data using deductive and active rules and triggers 
+- potential for enforcing standards
+	- this is very crucial for the success of database applications in large organizations. Standards regard to data item names, display formats, screens...
+- reduced application development time
+	- incremental time to add each new application is reduced 
+- flexibility to change data structures
+	- database structure may evolve as new requirements are defined
+- availability of current information
+- economies of scale 
+
+
+# when not to use a dbms
+- main inhibitors cost of using a dbms
+	- high initial investment and possile need ofr additional hardware
+	- overhead for providing generality, security, concurrency sonctrol, re
+- real time requirements 

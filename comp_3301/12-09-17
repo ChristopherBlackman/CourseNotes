@@ -1,0 +1,136 @@
+# genre
+
+- a specific type of writing (painting, music ...)
+- pieces within a genre share commonalities
+	- style, subject matter
+- literary genres : romance, western, mystery....
+- broad , possibly overlapping categories 
+
+
+``` 
+Here's what bothers me. 
+It's one thing if you have preliminary data suggesting your approach won't work.
+That is, your planned experiment cannot result in interpretable data. 
+That , I would agree, is a serious problem.
+```
+- possibly a blog post
+
+```
+Drinking me Starbucks morning coffee in my reusable cup. 
+They certainly know what they are doing! #latteart
+```
+- twitter / them moment medium
+- complete thought 
+
+# genres 
+
+- code of conduct for a particular discourse
+	- common practice
+	- reflects/embodies expectations of audience
+	- implies objectives for the writer ( and reader)
+- some genres 
+	- technical writing
+	- journalism
+	- blogging
+	- IM
+	- twitter
+
+
+# technical writing
+
+- a genre with its own structure and properties
+- characteristics
+	- uses direct, transparent writing
+	- as simple as possible ( but not simpler)
+	- fairly formal ( avoid contractions, say)
+	- strives to be precise and unambiguous
+	- talks about factual matters, lays out reasoning
+
+# virtues of technical writing
+
+- clarity
+	- be as clear and unambiguous as possible
+- economy
+	- omit unnecessary words
+	- get your point across efficiently
+- simplicity
+	- write directly and to the point
+	- explain as simple a possible ( but no more simply)
+
+# clarity
+
+- be specific
+- be concrete
+	- examples help
+- be direct
+	- just come out and say what you mean
+	- avoid waffle and hedging
+
+```
+A computer is basically a big adding machine.
+```
+
+- 'basically' is hedging
+- if removed basically, then an unnecessary abstraction
+- not providing an accurate detail
+
+```
+A computer is essentially a big adding machine.
+```
+
+- more formal but still has not explained 
+
+```
+A computer is essentially a big adding machine.
+```
+- that is not what we are saying at all
+- clear that the analogy has not been explained 
+
+
+```
+Potatoheads's algorithm is "good" ```
+```
+- to ambiguous 
+
+``` 
+A prediction algorithm is considered "good" if the actual outcome is within 10% of the estimate at least 70% of the time. By this standard Potatohead's algorithm is "good"/
+```
+
+- this saves the previous statement
+- now gives us a definition 
+
+```
+PH's algorithm works by identifying the data that is "closest to" the source and hence most reliable. 
+```
+- give the measurement not the vague intuition
+
+```
+tests were conducted using popular modern operating systems.
+```
+- be more specific and time sensitive 
+- "passive voice" : just say that something happened, not whom did it " who did the tests in this sentence "
+
+```
+We tested our application on windows 8, windows 10 and macosx...
+```
+- fix
+
+```
+we tested out application on windows.....
+````
+- fix fix
+
+```
+it may be possible to further improve the speed in the future.
+```
+- weak statement ( always true)
+- lack of information 
+	- first person could be used to add more information
+
+``` 
+network disruptions can affect only certain groups of nodes
+
+v1
+network disruptions an have uneven impact; for example, a disruption might affect some groups of nodes while others remain unaffected.
+```
+- multiple interpretations 

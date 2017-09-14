@@ -1,0 +1,88 @@
+# COMP 3004 object-oreinted software engineering
+- fall 2017
+- intrstuctor : dr Olga Baysal
+
+# dates and times
+- 11:35-12:55 wed/fri
+- no tutrials
+- office hours -> email (use Comp3004 in subject line) 
+
+# course website
+- http://olgabaysal.com/teaching/fall7/comp3004/comp3004_f17.html
+
+# ta
+- role:
+..- assesment will be done by the ta
+
+
+# textboks
+- no textooks are required
+- these may be helpful
+..1. software arctecture: foundation theory, and practice
+..2. essential software architecture
+
+# topices
+- precess modles
+- use cases 
+- uml seqquece diagrams
+- requirements specification
+- non-functional requirements 
+- architetuals styles
+- design patterns
+- ethics 
+
+# indetened learing outcomes
+- understand the difficutiles of a waterfall appreach to software development and why incremental and agile develpment are better
+- differentialte how varios architectual styles and design patterends enhance and degrade a systems functional and non functjional properties
+- preduce and present consise and unambiguos arcticeute
+
+# project
+- team of four students 
+- mobile app 
+	- make something usefull
+	- lear something nes
+	- leverage current technoly
+	- have fun 
+- contrains 
+	- be usefull, novel and leverage technology
+	- can no be a CRUD application, web frond-end or require extensive server side cose
+	- can not require crowd involvement 
+
+# app platforms 
+- must demooed on a mobile phone from any of the following platforms
+	-ios, android, bb10, w10 mobile, firefoxOS
+- app should conform to the platform
+- integreate with appropriate platform services
+- this is an opportunity to do something great. the project is flexile and is worth a significant portion of your final grade. use this to design an build something sepecial
+
+# Deliverables
+0. project groups
+1. project proposal
+2. prototype + demo
+3. architecture + design
+4. presentation + video
+
+# team submit
+- team name
+- name of all team members and their ids
+- group meeting time/day/location
+- link to the repositort ( add your ta to the repo)
+	- dev logs - you will submit weekly logs on your duties//achievement/time spent
+- due september 12 9:00 am via culearn
+
+# D1
+- pdf via culeran september 19
+	- a written description of your prototype
+	- demoed in class
+- presentation 20-22
+- value 5%
+
+
+# D3
+- pdf : a medium description of your apps architecture and design and why you made the design decision you did
+
+
+# D4
+- a short  decription of how the project turened out along with a reflection on the feed back reciced on the prototype
+- youtube video
+
